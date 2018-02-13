@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    	<title>NASA</title>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/flickity-docs.css" media="screen">
+		<script src="js/modernizr.custom.js"></script>
+    	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+				<script type="text/javascript">
+					$(function(){
+						$(window).scroll(
+
+							function () {//Au scroll dans la fenetre on d�clenche la fonction
+								if ($(this).scrollTop() > 150) { //si on a d�fil� de plus de 150px du haut vers le bas
+									$('#navigation').addClass("fixNavigation"); //on ajoute la classe "fixNavigation" � <div id="navigation">
+								} else {
+									$('#navigation').removeClass("fixNavigation");//sinon on retire la classe "fixNavigation" � <div id="navigation">
+								}
+							}
+
+						);			 
+					});
+				</script>
+	</head>
+
+	<body>
+
+		<div>
+			<a href="#"><img src="img/nasa_logo2.png" alt="logo" id="logo"></a>
+		</div>
+
+		<div id="testnav2">
+			<div class="menu2">
+	             <ul>
+	          		<li><a href="#">About</a></li>
+	          		<li><a href="#">Downloads</a></li>
+	          		<li><a href="#">NASA TV</a></li>
+							<!--<li><a href="#">Missions</a></li>
+							<li><a href="#">Galerie</a></li>-->
+			        <li><a href="##">Discover</a></li>
+			        <li><a href="#">Ressources</a></li>
+                    
+          		</ul>
+        	</div>
+        </div>
+
+				<div id="container"> 
+
+
+					<div id="navigation" class="group_logmen">
+
+						
+
+						<div class="left">
+							<nav class="menu">
+			              		<ul>
+			              			<a href="#" id="log_link"></a>
+			          				  
+			          				  <li><a href="#iss_part" id="iss_link">&nbsp;&nbsp;ISS&nbsp;&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="domaine.html#Histoire">Notre histoire</a></li>
+								  <li><a href="domaine.html#Chateau">Le château</a></li>
+								  <li><a href="domaine.html#LeParc">Le parc</a></li>
+								</ul>
+							  </li>
+
+							  <li><a href="#mars_part" id="mars_link">&nbsp;Journey &nbsp;&nbsp;to &nbsp;&nbsp;Mars&nbsp;&nbsp;&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="restaurant.html#Cartes_Formule">Les cartes et formules</a></li>
+								  <li><a href="restaurant.html#Vins">La carte des vins</a></li>
+									<li><a href="restaurant.html#Degustation">Les offres de dégustation</a></li>
+									<li><a href="restaurant.html#Chef">Le Chef et son équipe</a></li>
+								</ul>
+							  </li>
+
+							  <li><a href="#earth_part" id="earth_link">&nbsp;&nbsp;Earth&nbsp;&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="hotel.html#Chambres">Les chambres</a></li>
+								  <li><a href="hotel.html#Bien_etre">L'espace bien-être</a></li>
+								  <li><a href="hotel.html#Services">Les services</a></li>
+								</ul>
+          				  </li>
+
+							  <li><a href="#new_part" id="new_link">&nbsp;&nbsp;News&nbsp;&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="domaine.html#Histoire">Notre histoire</a></li>
+								  <li><a href="domaine.html#Chateau">Le château</a></li>
+								  <li><a href="domaine.html#LeParc">Le parc</a></li>
+								</ul>
+							  </li>
+
+          				  <li><a href="domaine.html">&nbsp;&nbsp;Missions&nbsp;&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="domaine.html#Histoire">Notre histoire</a></li>
+								  <li><a href="domaine.html#Chateau">Le château</a></li>
+								  <li><a href="domaine.html#LeParc">Le parc</a></li>
+								</ul>
+							  </li>
+
+          				  <li><a href="galerie.html">&nbsp;&nbsp;Galerie&nbsp;&nbsp;&nbsp;<span style="letter-spacing:2.5px;">&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>
+
+          				  	<li><a href="#">&nbsp;&nbsp;&nbsp;Stories&nbsp;&nbsp;</a>
+								<ul>
+								  <li><a href="domaine.html#Histoire">Notre histoire</a></li>
+								  <li><a href="domaine.html#Chateau">Le château</a></li>
+								  <li><a href="domaine.html#LeParc">Le parc</a></li>
+								</ul>
+							  </li>
+
+			          				</ul>
+			        		</nav>
+		        		</div>
+
+	        		</div>
+
+			
+			
+        		
+		<!-- <div id="containMenu">
+			
+			<div id="menu2">
+				<div id="wrapp">
+				<ul id="menu_horizontal">
+					<li><a href="#">Accueil&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="#">News&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="#">Livre d'or&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="#">Contact&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="#">Admin&nbsp;&nbsp;&nbsp;</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+			-->
+
+		<div class="banOne" id="up">
+		</div>
+		<div  id="log_part">
+		<object type="text/html" data="http://www.youtube.com/embed/m1EBHOmXSqA?amp;version=2?amp;loop=1?amp;playlist=m1EBHOmXSqA?amp;autoplay=1" class="ct"></object>
+		</div>
+		<div class="banOne">
+			<!--<h1 id="title"> L'Espace </h1>-->
+		</div>
+		<!--<div id="object" class="floating">-->
+		<a href="#up"><img src="img/navette.png" alt"remonter" id="nav"></a>
+<!--_____________________________________________________________________________________________________________-->	
+		<div id="iss_part">
+			<!--<img src="img/astro.jpg" alt="astro" id="astro">-->
+			<div class="cont-text">
+
+				<h1 class="tipi1">international space station</h1>
+
+				<span class="backtext1">
+				<p>NASA is not about the ‘Adventure of Human Space Exploration’…We won’t be doing it just to get out there in space – 
+					we’ll be doing it because the things we learn out there will be making life better for a lot of people who won’t be able to go.
+				I believe every human has a finite number of heartbeats. I don't intend to waste any of mine
+				<br><br>
+				It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb
+				 blotted out the planet Earth. I didn't feel like a giant. I felt very, very small.
+				Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. 
+				The early warnings about technological dangers also come from science.
+				</p></span>
+				<button class="button buttonleft">Read more</button>
+			</div>
+		</div>
+<!--_____________________________________________________________________________________________________________-->
+		<div id="mars_part">
+			<!--<img src="img/mars.jpg" alt="mars" id="mars">-->
+			<div id="cont-text2">
+
+				<h1 id="tipi2">is there life on mars</h1>
+				<h2 id="tipi3">- david bowie -</h2>
+
+				<span id="backtext2">
+				<p>NASA is not about the ‘Adventure of Human Space Exploration’…We won’t be doing it just to get out there in space – 
+					we’ll be doing it because the things we learn out there will be making life better for a lot of people who won’t be able to go.
+				I believe every human has a finite number of heartbeats. I don't intend to waste any of mine
+				<br><br>
+				It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb
+				 blotted out the planet Earth. I didn't feel like a giant. I felt very, very small.
+				Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. 
+				The early warnings about technological dangers also come from science.
+				</p></span>
+				<button class="button buttonright">Read more</button>
+			</div>
+		</div>
+<!--_____________________________________________________________________________________________________________-->	
+		<div id="earth_part">
+			<!--<img src="img/earth3.jpg" alt="earth" id="earth">-->
+			<div class="cont-text">
+
+				<h1 class="tipi1">earth</h1>
+
+				<span class="backtext1">
+				<p>NASA is not about the ‘Adventure of Human Space Exploration’…We won’t be doing it just to get out there in space – 
+					we’ll be doing it because the things we learn out there will be making life better for a lot of people who won’t be able to go.
+				I believe every human has a finite number of heartbeats. I don't intend to waste any of mine
+				<br><br>
+				It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb
+				 blotted out the planet Earth. I didn't feel like a giant. I felt very, very small.
+				Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. 
+				The early warnings about technological dangers also come from science.
+				</p></span>
+				<button class="button buttonleft">Read more</button>
+			</div>
+		</div>
+<!--_____________________________________________________________________________________________________________-->
+
+<!--_____________________________________________________________________________________________________________-->
+		<div class="banOne">
+		</div>
+<!--_____________________________________________________________________________________________________________
+	<div class="glob">
+
+		<div id="divLeft">
+			
+			<div class="slider">
+			<figure>
+				<img src="img/UFO.jpg" class="ufo">
+				<img src="img/UFO2.jpg" class="ufo">
+				<img src="img/UFO3.jpg" class="ufo">
+				<img src="img/UFO4.jpg" class="ufo">
+				<img src="img/UFO5.jpg" class="ufo">
+				
+			</figure>
+			</div>
+
+		</div>
+
+		<div id="divRight">
+			<div>			
+				<div class="slider">
+					<figure>
+						<img src="img/astropers-e.jpg" class="asp">
+						<img src="img/astropers-b.jpg" class="asp">
+						<img src="img/astropers-d.jpg" class="asp">
+						<img src="img/astropers-c.jpg" class="asp">
+						<img src="img/astropers-a.jpg" class="asp">
+					</figure>
+				</div>
+			</div>
+			<div>
+				<div class="slider">
+					<figure>
+						<img src="img/text.png" class="i21">
+						<img src="img/text.png" class="i21">
+						<img src="img/text.png" class="i21">
+						<img src="img/text.png" class="i21">
+						<img src="img/text.png" class="i21">
+					</figure>
+				</div>
+			</div>
+		</div>
+
+	</div>
+_____________________________________________________________________________________________________________-->
+
+		  <div class="hero-carousel" data-flickity="" data-js-module="hero-carousel" id="new_part">
+    <div class="hero-carousel__cell hero-carousel__cell--1">
+      <div class="hero-carousel__cell__content">
+      	<h1>TITRE</h1>
+      	<p>TEXTE (bug backgroud à corriger)</p>
+        <img src="img/hubble.jpg">
+      </div>
+    </div>
+    <div class="hero-carousel__cell hero-carousel__cell--2">
+      <div class="hero-carousel__cell__content">
+        <img src="img/lune.jpg">
+      </div>
+    </div>
+    <div class="hero-carousel__cell hero-carousel__cell--3">
+      <div class="hero-carousel__cell__content">
+        <img src="img/aurore.jpg">
+      </div>
+    </div>
+    <div class="hero-carousel__cell hero-carousel__cell--4">
+      <div class="hero-carousel__cell__content">
+        <img src="img/fusee.jpg">
+      </div>
+    </div>
+  </div>
+
+		<div class="banOne">
+		</div>
+<!--_____________________________________________________________________________________________________________-->
+<!--
+		<img src="img/eye.jpg" id="">
+		<img src="img/space.jpg" id="">
+		<img src="img/nebu.jpg" id="">
+
+
+
+		<div class="banOne">
+		</div>
+
+		<div id="slider">
+			<figure>
+				<img src="img/nasa_logo.png" >
+				<img src="img/nasa_logo2.png" >
+				<img src="img/nasa_logo.png" >
+				<img src="img/nasa_logo2.png" >
+				<img src="img/nasa_logo.png" >
+				
+			</figure>
+		</div>
+		-->
+<!--_____________________________________________________________________________________________________________-->
+	</div>
+	<div class="container_footer">
+			<header class="clearfix">
+
+				<nav>
+					<a href="http://tympanus.net/Blueprints/BackgroundSlideshow/" class="icon-arrow-left" data-info="previous Blueprint">Previous Blueprint</a>
+					<a href="http://tympanus.net/codrops/?p=14921" class="icon-drop" data-info="back to the Codrops article">back to the Codrops article</a>
+				</nav>
+			</header>	
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				
+				<section id="fbsection1">
+					
+				</section>
+				<section id="fbsection2"></section>
+				<section id="fbsection3"></section>
+				<section id="fbsection4"></section>
+				<section id="fbsection5">
+					<div id="social">
+						<a href="#" class="social" id="network1"></a>
+						<a href="#" class="social" id="network2"></a>
+						<a href="#" class="social" id="network3"></a>
+						<a href="#" class="social" id="network4"></a>
+						<a href="#" class="social" id="network5"></a>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+		<script src="js/jquery.debouncedresize.js"></script>
+		<script src="js/cbpFixedScrollLayout.min.js"></script>
+		<script>
+			$(function() {
+				cbpFixedScrollLayout.init();
+			});
+		</script>
+<script src="js/flickity-docs.min.js"></script>
+<script type="text/javascript">
+
+window.couleur = function(){
+
+
+// recupere les elements a colorier
+var colorlog = document.getElementById('log_link');
+var coloriss = document.getElementById('iss_link');
+var colormars = document.getElementById('mars_link');
+var colornew = document.getElementById('new_link');
+var colorearth = document.getElementById('earth_link');
+
+// recupere la hauteur de chaque div, par rapport au top du DOC
+var logDiv = document.getElementById('log_part');
+var issDiv = document.getElementById('iss_part');
+var marsDiv = document.getElementById('mars_part');
+var newDiv = document.getElementById('new_part');
+var earthDiv = document.getElementById('earth_part');
+
+// recupere la somme hauteur+offsetTop
+var logCal = logDiv.offsetHeight+logDiv.offsetTop;
+var issCal = issDiv.offsetHeight+issDiv.offsetTop;
+var marsCal = marsDiv.offsetHeight+marsDiv.offsetTop;
+var newCal = newDiv.offsetHeight+newDiv.offsetTop;
+var earthCal = earthDiv.offsetHeight+earthDiv.offsetTop;
+
+
+var pos = window.scrollY; // recupere la position verticale au scroll
+/*
+if(pos>logCal){   
+   colorlog.style.background = 'red';
+} else
+		colorlog.style.background = 'rgba(0,0,0,.15)';
+*/
+if(pos>logCal && pos<issCal){   
+   coloriss.style.background = '#661AFF';
+} else
+		coloriss.style.background = 'rgba(0,0,0,.15)';
+
+
+if (pos>issCal && pos<marsCal){
+ colormars.style.background = '#661AFF';
+} else
+		colormars.style.background = 'rgba(0,0,0,.15)';
+
+
+if (pos>marsCal && pos<earthCal){
+ colorearth.style.background = '#661AFF';
+} else
+		colorearth.style.background = 'rgba(0,0,0,.15)';
+
+if (pos>earthCal && pos<newCal){
+ colornew.style.background = '#661AFF';
+} else
+		colornew.style.background = 'rgba(0,0,0,.15)';
+
+}
+
+// fin fonction couleur
+
+//fait tourner la fonction au scroll
+ window.addEventListener("scroll" , couleur);
+
+ 			function deplace(dx,dy){
+			document.getElementById('calque').style.top
+			  = parseInt(document.getElementById('calque').style.top)+dy+'px';
+			document.getElementById('calque').style.left
+			  = parseInt(document.getElementById('calque').style.left)+dx+'px';
+
+			}
+			function test(dx,dy) {
+			document.getElementById('calque2').style.top
+			  = parseInt(document.getElementById('calque2').style.top)+dy+'px';
+			document.getElementById('calque2').style.left
+			  = parseInt(document.getElementById('calque2').style.left)+dx+'px';
+
+			}
+
+
+</script>
+
+	</body>
+</html>
